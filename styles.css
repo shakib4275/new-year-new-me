@@ -1,0 +1,613 @@
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header-Banner */
+.header{
+    background: gold;
+    background-size: cover;
+    max-width: 100%;
+    height: 300px;
+
+    background-repeat: no-repeat;
+    background-image: url(images/banner/banner2.png) ;
+    text-align: right;
+    padding: 300px 230px 350px 800px;
+
+}
+
+.nav-title{
+    font-weight: 700;
+font-size: 65px;
+color: #151414;
+text-align: right;
+margin-bottom: 30px;
+
+}
+.nav-description{
+    color: #444343;
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 30px;
+}
+.btn-primary{
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+/* Main Section part Start */
+
+
+
+.section-container{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    height: 723.3px;
+     gap: 90px;
+}
+
+.section{
+    margin-left: 200px;
+    width: 569px;
+height: 723.3px;
+}
+
+.section-title{
+    margin-top: 370px;
+    text-align: center;
+   
+}
+
+.failuer-title{
+    color: #151414;
+   
+margin-bottom: 30px;
+width: 288px;
+height: 94px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+
+.section-description{
+    color: #444343;
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 20px;
+    
+}
+
+.section-list{
+ 
+ text-align: center;
+ 
+
+}
+
+ul li{
+    text-align: center;
+    color: #444343;
+    font-weight: 400;
+font-size: 16px;
+ list-style-image: url(images/checkmark-16.ico);
+ justify-content:center;
+}
+
+/* My Plans */
+
+.section-title{
+    color: #151414;
+    font-weight: 700;
+font-size: 40px;
+text-align: center;
+margin-top: 130px;
+margin-bottom: 50px;
+
+}
+
+.skill-container{
+    display: flex;
+    justify-content:center;
+    gap: 200px;
+    text-align: center;
+    
+}
+
+.skills-title{
+    color: #151414;
+    font-weight: 700;
+font-size: 30px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.skills-description{
+    color: #737272;
+    font-weight: 500;
+font-size: 25px;
+margin-bottom: 120px;
+}
+/* Grediant Started */
+
+.grediant-container{
+   
+    background-image: url(images/watch.png);
+    width: 1140px;
+height: 300px;
+margin: 0px 230px;
+margin-bottom: 130px;
+position: relative;
+display: flex;
+
+}
+
+
+.color-overlay{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width: 1140px;
+    height: 300px;
+    position: absolute;
+    opacity: 0.4;
+    
+}
+.color{
+   z-index: 1;
+}
+
+.title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 70px;
+    padding-top: 60px;
+    width: 459px;
+height: 94px;
+
+display: block;
+
+
+
+}
+.btn-call-now{
+    width: 160px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+
+
+color: #F15B22;
+margin-left: 70px;
+margin-top: 20px;
+border: none;
+display: block;
+z-index: 1;
+
+
+
+}
+
+/* my next goal */
+
+.section-container{
+    display: flex;
+}
+.img-1{
+    width: 456px;
+height: 477px;
+margin-top: 130px;
+margin-bottom: 150px;
+border: 2px solid white;
+box-shadow: 10px 10px 10px #444343;
+}
+.section-title{
+    color: #121212;
+    font-weight: 700;
+font-size: 45px;
+margin-top: 180px;
+
+}
+.section-description{
+    color: #707070;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+/* Start Footer */
+
+.footer{
+    background: #151414;
+    width: 100%;
+height: 577px;
+}
+
+.footer-container{
+    display: flex;
+    margin-left: 230px;
+    gap: 330px
+    ;
+    
+}
+
+.titles{
+    color: #F8F8F8;
+    font-weight: 700;
+font-size: 45px;
+width: 148px;
+height: 53px;
+margin-top: 130px;
+margin-bottom: 20px;
+
+
+
+}
+
+.footer-description{
+    color: #FFFFFF;
+    width: 485px;
+height: 78px;
+
+
+}
+.email{
+    color: #FFFFFF;
+    width: 184px;
+height: 26px;
+margin-bottom: 20px;
+}
+.footer-phone{
+    color: #FFFFFF;
+    width: 186px;
+height: 26px;
+margin-bottom: 35px;
+}
+
+   
+
+.subscribe-title{
+    color: #F8F8F8;
+    margin-top: 130px;
+    font-weight: 600;
+font-size: 25px;
+width: 123px;
+height: 29px;
+margin-bottom: 30px;
+    
+}
+.footer-email{
+    background: #151414;
+    color: #FFFFFF;
+    border: 1px solid #F8F8F8 ;
+    padding: 20px;
+    display: block;
+    border-radius: 5px;
+    width: 325px;
+}
+
+.btn-subscribe{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #F15B22;
+    
+    margin-top: 20px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
